@@ -1,0 +1,88 @@
+Testsuite: Post a Blog Entry
+Tests run: 1, Failures: 1, Errors: 0, Time elapsed: 0.011 sec
+------------- Standard Output ---------------
+Feature: Post a Blog Entry
+  In order to show the rest of the world how smart I am
+  As a Blogger
+  I want to be able to post a blog entry
+
+--Output from New Blog Post--
+  Scenario: New Blog Post                                                # creating_blog_entries.feature:6
+    Given I am logged in as a blogger
+    When I publish a new blog post
+    Then I am notified that the blog post was successfully added
+    And the newly added blog post is at the top of the recent posts list
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+
+--Output from New Blog Post--------------- ---------------- ---------------
+
+Testcase: New Blog Post took 0.003 sec
+	FAILED
+Undefined Step: Given I am logged in as a blogger
+cucumber.runtime.UndefinedStepException: Undefined Step: Given I am logged in as a blogger
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+
+	FAILED
+Undefined Step: When I publish a new blog post
+cucumber.runtime.UndefinedStepException: Undefined Step: When I publish a new blog post
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+
+	FAILED
+Undefined Step: Then I am notified that the blog post was successfully added
+cucumber.runtime.UndefinedStepException: Undefined Step: Then I am notified that the blog post was successfully added
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+
+	FAILED
+Undefined Step: And the newly added blog post is at the top of the recent posts list
+cucumber.runtime.UndefinedStepException: Undefined Step: And the newly added blog post is at the top of the recent posts list
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+

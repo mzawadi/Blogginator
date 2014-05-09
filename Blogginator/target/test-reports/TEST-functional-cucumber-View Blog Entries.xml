@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="3" hostname="TNG10" name="View Blog Entries" tests="3" time="0.05" timestamp="2014-05-09T20:25:40">
+  <properties />
+  <testcase classname="grails.plugin.cucumber.CucumberTest" name="View Recent Blog Posts" time="0.034">
+    <failure message="Undefined Step: Given my favorite blogger has been very active" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Given my favorite blogger has been very active
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+    <failure message="Undefined Step: When I visit the blog for my favorite blogger" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: When I visit the blog for my favorite blogger
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+    <failure message="Undefined Step: Then then I should see a summary of my favorite blogger&apos;s 10 most recent posts in reverse order" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Then then I should see a summary of my favorite blogger&apos;s 10 most recent posts in reverse order
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+  </testcase>
+  <testcase classname="grails.plugin.cucumber.CucumberTest" name="View a Blog Post" time="0.007">
+    <failure message="Undefined Step: Given I visit the blog for my favorite blogger" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Given I visit the blog for my favorite blogger
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+    <failure message="Undefined Step: When I choose a blog post" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: When I choose a blog post
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+    <failure message="Undefined Step: Then I should see the blog post" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Then I should see the blog post
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+  </testcase>
+  <testcase classname="grails.plugin.cucumber.CucumberTest" name="Search for Blog Post" time="0.006">
+    <failure message="Undefined Step: Given I visit the blog for my favorite blogger" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Given I visit the blog for my favorite blogger
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+    <failure message="Undefined Step: When I search for a blog post" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: When I search for a blog post
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+    <failure message="Undefined Step: Then I should see posts with that value in the title" type="grails.plugin.cucumber.FakeAssertionFailedError">cucumber.runtime.UndefinedStepException: Undefined Step: Then I should see posts with that value in the title
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Feature: View Blog Entries
+  In order to stay up todate
+  As a Reader
+  I want to be able to view blog posts of my favorite blogger
+
+--Output from View Recent Blog Posts--
+  Scenario: View Recent Blog Posts                                                                  # reading_blog_entries.feature:6
+    Given my favorite blogger has been very active
+    When I visit the blog for my favorite blogger
+    Then then I should see a summary of my favorite blogger's 10 most recent posts in reverse order
+
+--Output from View a Blog Post--
+  Scenario: View a Blog Post                       # reading_blog_entries.feature:11
+    Given I visit the blog for my favorite blogger
+    When I choose a blog post
+    Then I should see the blog post
+
+--Output from Search for Blog Post--
+  Scenario: Search for Blog Post                         # reading_blog_entries.feature:16
+    Given I visit the blog for my favorite blogger
+    When I search for a blog post
+    Then I should see posts with that value in the title
+]]></system-out>
+  <system-err><![CDATA[
+--Output from View Recent Blog Posts--
+--Output from View a Blog Post--
+--Output from Search for Blog Post--]]></system-err>
+</testsuite>

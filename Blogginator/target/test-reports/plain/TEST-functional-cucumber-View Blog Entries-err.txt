@@ -1,0 +1,4 @@
+
+--Output from View Recent Blog Posts--
+--Output from View a Blog Post--
+--Output from Search for Blog Post--

@@ -1,0 +1,305 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+                    Test - Post a Blog Entry</title>
+<link rel="shortcut icon" href="http://grails.org/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" title="Style" href="stylesheet.css">
+</head>
+<body>
+<div class="container container_8" id="report">
+<div class="grid_6">
+<a title="Home" href="index.html">
+<div class="grailslogo"></div>
+</a>
+<h1>Post a Blog Entry</h1>
+<h2>Package: </h2>
+</div>
+<div class="grid_2">
+<nav id="navigationlinks">
+<p>
+<a href="failed.html">
+                    Tests with failure and errors
+                </a>
+</p>
+<p>
+<a href="index.html">
+                    Package summary
+                </a>
+</p>
+<p>
+<a href="all.html">
+                    Show all tests
+                </a>
+</p>
+</nav>
+</div>
+<div class="clear"></div>
+<div class="testsuite failure">
+<div class="header">
+<h2>Post a Blog Entry</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="New Blog Post">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">New Blog Post</b>
+</p>
+<p class="summary">Executed in 0.01 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Undefined Step: Given I am logged in as a blogger</b>
+</p>
+<pre>cucumber.runtime.UndefinedStepException: Undefined Step: Given I am logged in as a blogger
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</pre>
+</div>
+<div class="details">
+<p>
+<b class="message">Undefined Step: When I publish a new blog post</b>
+</p>
+<pre>cucumber.runtime.UndefinedStepException: Undefined Step: When I publish a new blog post
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</pre>
+</div>
+<div class="details">
+<p>
+<b class="message">Undefined Step: Then I am notified that the blog post was successfully added</b>
+</p>
+<pre>cucumber.runtime.UndefinedStepException: Undefined Step: Then I am notified that the blog post was successfully added
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</pre>
+</div>
+<div class="details">
+<p>
+<b class="message">Undefined Step: And the newly added blog post is at the top of the recent posts list</b>
+</p>
+<pre>cucumber.runtime.UndefinedStepException: Undefined Step: And the newly added blog post is at the top of the recent posts list
+	at grails.plugin.cucumber.CucumberFormatter.resultUndefined(CucumberFormatter.groovy:242)
+	at grails.plugin.cucumber.CucumberFormatter.result(CucumberFormatter.groovy:207)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:250)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)
+	at grails.plugin.cucumber.Cucumber$_run_closure2.doCall(Cucumber.groovy:58)
+	at grails.plugin.cucumber.Cucumber.run(Cucumber.groovy:57)
+	at grails.plugin.cucumber.CucumberTestType.runFeatures(CucumberTestType.groovy:102)
+	at grails.plugin.cucumber.CucumberTestType.doRun(CucumberTestType.groovy:57)
+	at TestApp$_run_closure1.doCall(TestApp:102)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:32)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">Feature: Post a Blog Entry
+  In order to show the rest of the world how smart I am
+  As a Blogger
+  I want to be able to post a blog entry
+
+--Output from New Blog Post--
+  Scenario: New Blog Post                                                # creating_blog_entries.feature:6
+    Given I am logged in as a blogger
+    When I publish a new blog post
+    Then I am notified that the blog post was successfully added
+    And the newly added blog post is at the top of the recent posts list
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">
+--Output from New Blog Post--</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--
+            Parses JUnit output and associates it with the corresponding test case
+        -->
+<script language="javascript">
+
+
+/**
+ * The JUnit report format is incredibly stuipd in the
+ * sense that it accumulates output from all test methods
+ * into a single xml node.
+ */
+(function() {
+
+    var outputElements = findOutputElements();
+    for (var i in outputElements) {
+        var outputElement = outputElements[i];
+        var textOutput = outputElement.element.firstChild.nodeValue;
+        var header = outputElement.getHeader();
+        appendTestMethodOutput(textOutput, header);
+    }
+
+    function findOutputElements() {
+        var outputElements = [];
+        var preElements = document.getElementsByTagName("pre");
+        for (var i in preElements) {
+            var preElement = preElements[i];
+            var className = preElement.className || "";
+            if (className.indexOf("stdout") >= 0) {
+                var outputElement = new OutputElement(preElement, "output");
+                outputElements.push(outputElement);
+            } else if (className.indexOf("syserr") >= 0) {
+                var outputElement = new OutputElement(preElement, "error");
+                outputElements.push(outputElement);
+            }
+        }
+
+        return outputElements;
+    }
+
+    function OutputElement(element, type) {
+        this.element = element;
+        this.type = type;
+
+        this.getHeader = function() {
+            if (type === "output") {
+                return "System output";
+            } else if ("error") {
+                return "System error";
+            }
+        }
+    }
+
+    function appendTestMethodOutput(text, header) {
+        var testOutput = new TestMethodOutput(header);
+
+        var lines = text.split(/\r\n|\r|\n/);
+        for (var i in lines) {
+            var line = lines[i];
+            var matches = line.match(/^--Output from (.*)--$/);
+            if (matches !== null && matches.length == 2) {
+                testOutput.flushToDom();
+                testOutput.testName = matches[1];
+            } else {
+                testOutput.addLine(line);
+            }
+        }
+
+        testOutput.flushToDom();
+    }
+
+    function TestMethodOutput(header) {
+        this.header = header;
+        this.testName = undefined;
+        this.buffer = "";
+
+        this.addLine = function(line) {
+            this.buffer += line + "\n";
+        }
+
+        this.flushToDom = function() {
+            if (this.testName !== undefined) {
+                var domNode = getTestcaseElementByName(this.testName);
+                if (domNode !== undefined && trimString(this.buffer).length > 0) {
+                    this.appendTo(domNode);
+                }
+
+                this.reset();
+            }
+        }
+
+        this.appendTo = function(domNode) {
+            var node = document.createElement("div");
+            node.innerHTML = '<p><b class="message">' + header + '</b></p>';
+
+            var preNode = document.createElement("pre");
+            preNode.appendChild(document.createTextNode(this.buffer));
+            node.appendChild(preNode);
+
+            var outputContainer = findElementByTagClassAndParent("div", "outputinfo", domNode);
+            outputContainer.appendChild(node);
+        }
+
+        this.reset = function() {
+            this.methodName = undefined;
+            this.buffer = "";
+        }
+    }
+
+    function getTestcaseElementByName(name) {
+        var divElements = document.getElementsByTagName("div");
+        var elementCount = divElements.length;
+        for (var i=0; i<elementCount; i++) {
+            var el = divElements[i];
+            if (el.getAttribute("data-name") === name) {
+                return el;
+            }
+        }
+    }
+
+    function findElementByTagClassAndParent(tagName, className, parentNode) {
+        var elements = parentNode.getElementsByTagName(tagName);
+        for (var i in elements) {
+            var element = elements[i];
+
+            // Not 100% correct, but good enough here
+            if (element.className !== undefined && element.className.indexOf(className) >= 0) {
+                return element;
+            }
+        }
+    }
+
+    function trimString(str) {
+        return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+    }
+
+})();
+
+        </script>
+</body>
+</html>
