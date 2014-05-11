@@ -1,3 +1,0 @@
-
---Output from View Blog Comments--
---Output from Leave a comment (AJAX)--
