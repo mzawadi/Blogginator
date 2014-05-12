@@ -1,5 +1,5 @@
 Testsuite: blogginator.TestSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.271 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.142 sec
 ------------- Standard Output ---------------
 --Output from test something--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.271 sec
 --Output from test something--
 ------------- ---------------- ---------------
 
-Testcase: test something took 0.27 sec
+Testcase: test something took 0.142 sec
