@@ -1,37 +1,41 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page import="blogginator.Comment" %>
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
-<meta name="layout" content="main"/><%--
- 
-      <title>Create Comment</title>
-  </head>
-  <body>
-  <h1>Create a comment</h1>
-  <div id="validationerrors">
-      <g:renderErrors bean="${comment}"/>
-  </div>
-  <g:form controller="comment" action="save">
-      <g:hiddenField name="postId" value="${postId}"/>
-      <dl>
-          <dt>Your name:</dt>
-          <dd>
-          <g:textField name="who.name" value="${comment.who.name}"/>
-          </dd>
-          <dt>Your email:</dt>
-          <dd>
-          <g:textField name="who.email" value="${comment.who.email}"/>
-          </dd>
-          <dt>Your website/blog:</dt>
-          <dd>
-          <g:textField name="who.url" value="${comment.who.url}"/>
-          </dd>
-          <dt>Add your comment:</dt>
-          <dd>
-          <g:textArea name="comment" value="${comment.comment}" rows="20" cols="50"/>
-          </dd>
-      </dl>
-        <g:submitButton name="submit" value="Save"/>
-  </g:form>
-  </body>
-</html>--%>
+	<head>
+		<meta name="layout" content="main">
+		<g:set var="entityName" value="${message(code: 'comment.label', default: 'Comment')}" />
+		<title><g:message code="default.edit.label" args="[entityName]" /></title>
+	</head>
+	<body>
+		<a href="#edit-comment" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
+		<div class="nav" role="navigation">
+			<ul>
+				<li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
+				<li><g:link class="list" action="index"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
+				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+			</ul>
+		</div>
+		<div id="edit-comment" class="content scaffold-edit" role="main">
+			<h1><g:message code="default.edit.label" args="[entityName]" /></h1>
+			<g:if test="${flash.message}">
+			<div class="message" role="status">${flash.message}</div>
+			</g:if>
+			<g:hasErrors bean="${commentInstance}">
+			<ul class="errors" role="alert">
+				<g:eachError bean="${commentInstance}" var="error">
+				<li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
+				</g:eachError>
+			</ul>
+			</g:hasErrors>
+			<g:form url="[resource:commentInstance, action:'update']" method="PUT" >
+				<g:hiddenField name="version" value="${commentInstance?.version}" />
+				<fieldset class="form">
+					<g:render template="form"/>
+				</fieldset>
+				<fieldset class="buttons">
+					<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />
+				</fieldset>
+			</g:form>
+		</div>
+	</body>
+</html>

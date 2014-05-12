@@ -16,7 +16,7 @@ class Post {
 		
 		title(nullable:false, blank:false, length:1..50)
 		teaser(length:1..100)
-		content(nullable:false, blank:false)
+		content(nullable:false, blank:false, maxSize:10000)
 		lastUpdated(nullable:true)
 		published(nullible:false)		
 	}

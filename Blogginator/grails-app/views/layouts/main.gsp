@@ -19,6 +19,10 @@
 		<g:layoutHead/>
 		<g:javascript library="application"/>		
 		<r:layoutResources />
+		
+		<div id="signIn">
+			<g:link controller="Login" action="redirect" id="signIn">Sign In</g:link>
+		</div>
 	</head>
 	<body>
 	
