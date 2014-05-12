@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="TNG10" name="blogginator.TestSpec" tests="1" time="0.142" timestamp="2014-05-11T22:54:49">
-  <properties />
-  <testcase classname="blogginator.TestSpec" name="test something" time="0.142" />
-  <system-out><![CDATA[--Output from test something--
-]]></system-out>
-  <system-err><![CDATA[--Output from test something--
-]]></system-err>
-</testsuite>

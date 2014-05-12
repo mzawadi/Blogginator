@@ -20,4 +20,8 @@ class Post {
 		lastUpdated(nullable:true)
 		published(nullible:false)		
 	}
+	
+	static mapping = {
+		sort lastUpdated: "desc"
+	}
 }

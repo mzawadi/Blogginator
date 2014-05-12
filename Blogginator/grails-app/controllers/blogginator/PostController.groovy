@@ -30,7 +30,7 @@ class PostController {
 		def post = loadPost(params.id)
 		post.properties = params
 		if(post.save()) {
-			redirect(action:'')
+			redirect(action:'list')
 		} else {
 			render(view:'edit', model:[post:post])
 		}
