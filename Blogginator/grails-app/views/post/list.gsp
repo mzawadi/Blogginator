@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta name="layout" content="main" />
 <title>Kenny Bloggins</title>
+		<div id="btnSignIn">
+			<g:link controller="Login" action="sendToLogIn" id="signIn">Sign In</g:link>
+		</div>
 </head>
 
 	

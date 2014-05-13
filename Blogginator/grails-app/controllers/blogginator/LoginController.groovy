@@ -4,7 +4,7 @@ class LoginController {
 	def scaffold = true
     def index() { }
 	
-	def redirect = {
+	def sendToLogIn = {
 		render(view:'login')
 	}
 }

@@ -5,6 +5,11 @@
 	<head>
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'post.label', default: 'Post')}" />
+		
+		<div id="btnSignOut">
+			<g:link controller="Post" action="signOut" id="signOut">Sign Out</g:link>
+		</div>
+		
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
 	</head>
 	<body>

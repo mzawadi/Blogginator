@@ -6,6 +6,9 @@
 <meta name="layout" content="main"/>
 
     <title>${post.title}</title>
+    <div id="btnSignIn">
+   		<g:link controller="Login" action="sendToLogIn" id="signIn">Sign In</g:link>
+	</div>
 </head>
 <body>
 
@@ -14,6 +17,7 @@
 </div>
 
 <h1>${post.title}</h1>
+<br/>
 <div>${post.content}</div>
 <%--<g:each in="${post.comments}" var="comment">
     <div class="comment">
@@ -27,11 +31,7 @@
     <p>Made by: ${comment.who.name} on ${comment.dateCreated}</p>
     </div>
 </g:each>
-    
 
-<g:link controller="post" action="edit" id="${post.id}">
-  Edit this post
-</g:link>
 </body>
 </html>
 

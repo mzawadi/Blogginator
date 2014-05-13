@@ -1,9 +1,9 @@
 #backButton{
 	height:30px;
 	width:40px;
-	background-color:#FF9900;
+	border:1px solid #CCC;
 	text-align:center;
-	border-radius:2px;
+	border-radius:5px;
 	vertical-align:middle;
 	line-height:30px;
 	color:#FFF;

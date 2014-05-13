@@ -36,6 +36,30 @@ class PostController {
 		}
 	}
 	
+	def signIn = {
+		Login login = new Login()
+		login.userName = params.userName
+		login.passWord = params.passWord
+		
+		userNameFromForm = login.userName
+		passWordFromForm = login.passWord
+		
+		if() {
+			redirect(view:'index')
+		} else {
+			redirect(view:'error')
+		}
+		render(login.passWord)
+	}
+	
+	def signOut = {
+		render(
+				view:'list',
+				model:[posts:Post.list(
+					sort:'lastUpdated',
+					order:'desc')])
+	}
+	
 	private loadPost(id) {
 		def post = new Post();
 		if(id) {

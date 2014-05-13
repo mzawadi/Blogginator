@@ -8,14 +8,15 @@
 </head>
 <body>
   <div class="body">
-  	<g:form action="save">
-    	<label for="lastName">Username</label>
-    	<g:textField name="userName" value="${userName}"/>
+  	<g:form controller="Post" action="signIn">
+    	<label for="userName">Username</label>
+    	<g:textField name="userName" id="userName" value="${userName}"/>
     	<br/>
-    	<label for="firstName">Password</label>
-    	<g:textField name="passWord" value="${passWord}"/>
     	<br/>
-    	<g:submitButton name="create" value="Save" />
+    	<label for="passWord">Password</label>
+    	<g:passwordField name="passWord" id="passWord" value="${passWord}"/>
+    	<br/>
+    	<g:actionSubmit name="logIn" controller="Post" action="signIn" id="btnLogIn" value="Sign in" />
 	</g:form>
   
   </div>
